@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnWidth="150dp"
+        android:numColumns="auto_fit"
+        android:id="@+id/grid_view_layout"
+        android:background="#E8EAF6"/>
+
+    <TextView
+        android:id="@+id/empty"
+        android:text="Updating Movies"
+        android:textSize="@dimen/detail_title_text_size"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+    </TextView>
+</RelativeLayout>
